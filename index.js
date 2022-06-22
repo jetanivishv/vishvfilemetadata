@@ -2,7 +2,7 @@ var express = require('express');
 var cors = require('cors');
 require('dotenv').config()
 const multer=require('multer');
-var bodyParser= require('body-Parser');
+var bodyParser= require('body-parser');
 var upload = multer({ dest: './public' })
 
 var app = express();
